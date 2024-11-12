@@ -1,0 +1,10 @@
+{
+  "name": "MyHat",
+  "author": "AuthorName",
+  "folder": "MyHat_Folder",
+  "sprite": "MyHat_sprite.png",
+  "backsprite": "MyHat_backsprite.png",
+  "climbsprite": "MyHat_climbsprite.png",
+  "bounce": true,
+  "colorbase": false
+}
