@@ -1,0 +1,12 @@
+{
+  "package": "TheBetterHats",
+  "id": "my_template",
+  "name": "Hat Template",
+  "author": "Author Name",
+  "folder": "HatTemplate_Folder",
+  "sprite": "Hat_sprite.png",
+  "backsprite": "Hat_backsprite.png",
+  "climbsprite": "Hat_climbsprite.png",
+  "bounce": true,
+  "colorbase": false
+}
