@@ -1,0 +1,12 @@
+{
+  "package": "Developer Hats",
+  "id": "d1gq",
+  "name": "D1GQ Mask",
+  "author": "D1GQ",
+  "folder": "Dev_D1GQ",
+  "sprite": "hat_sprite.png",
+  "backsprite": "",
+  "climbsprite": "hat_climbsprite.png",
+  "bounce": true,
+  "colorbase": false
+}
