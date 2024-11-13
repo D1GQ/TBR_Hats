@@ -7,6 +7,6 @@
   "sprite": "hat_sprite.png",
   "backsprite": "",
   "climbsprite": "hat_climbsprite.png",
-  "bounce": true,
+  "bounce": false,
   "colorbase": false
 }
