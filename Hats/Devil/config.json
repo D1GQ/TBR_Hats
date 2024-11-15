@@ -1,0 +1,13 @@
+{
+  "package": "TheBetterHats",
+  "id": "devil",
+  "name": "Devil",
+  "author": "D1GQ",
+  "folder": "Devil",
+  "sprite": "hat_sprite.png",
+  "backsprite": "hat_backsprite.png",
+  "climbsprite": "hat_climbsprite.png",
+  "behind": false,
+  "bounce": false,
+  "colorbase": true
+}
