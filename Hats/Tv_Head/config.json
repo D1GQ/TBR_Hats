@@ -1,0 +1,15 @@
+{
+  "package": "TheBetterHats",
+  "id": "tv_head",
+  "name": "Tv Head",
+  "author": "D1GQ",
+  "folder": "Tv_Head",
+  "sprite": "hat_sprite.png",
+  "flipsprite": "",
+  "backsprite": "hat_backsprite.png",
+  "flipbacksprite": "",
+  "climbsprite": "hat_climbsprite.png",
+  "behind": false,
+  "bounce": false,
+  "colorbase": false
+}
