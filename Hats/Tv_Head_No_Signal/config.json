@@ -1,0 +1,15 @@
+{
+  "package": "TheBetterHats",
+  "id": "tv_head_no_signal",
+  "name": "Tv Head No Signal",
+  "author": "D1GQ",
+  "folder": "Tv_Head_No_Signal",
+  "sprite": "hat_sprite.png",
+  "flipsprite": "",
+  "backsprite": "",
+  "flipbacksprite": "",
+  "climbsprite": "hat_climbsprite.png",
+  "behind": false,
+  "bounce": false,
+  "colorbase": false
+}
