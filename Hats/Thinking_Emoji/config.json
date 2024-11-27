@@ -1,0 +1,15 @@
+{
+  "package": "Emoji Hats",
+  "id": "thinking_emoji",
+  "name": "Thinking Emoji",
+  "author": "D1GQ",
+  "folder": "Thinking_Emoji",
+  "sprite": "thinking_emoji.png",
+  "flipsprite": "",
+  "backsprite": "",
+  "flipbacksprite": "",
+  "climbsprite": "thinking_emoji_climb.png",
+  "behind": false,
+  "bounce": false,
+  "colorbase": false
+}

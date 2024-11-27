@@ -1,0 +1,15 @@
+{
+  "package": "Emoji Hats",
+  "id": "crying_emoji",
+  "name": "Crying Emoji",
+  "author": "D1GQ",
+  "folder": "Crying_Emoji",
+  "sprite": "crying_emoji.png",
+  "flipsprite": "",
+  "backsprite": "",
+  "flipbacksprite": "",
+  "climbsprite": "crying_emoji_climb.png",
+  "behind": false,
+  "bounce": false,
+  "colorbase": false
+}

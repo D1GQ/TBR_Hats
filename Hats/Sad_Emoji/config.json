@@ -1,0 +1,15 @@
+{
+  "package": "Emoji Hats",
+  "id": "sad_emoji",
+  "name": "Sad Emoji",
+  "author": "D1GQ",
+  "folder": "Sad_Emoji",
+  "sprite": "sad_emoji.png",
+  "flipsprite": "",
+  "backsprite": "",
+  "flipbacksprite": "",
+  "climbsprite": "sad_emoji_climb.png",
+  "behind": false,
+  "bounce": false,
+  "colorbase": false
+}

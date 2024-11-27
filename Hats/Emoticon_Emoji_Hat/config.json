@@ -1,0 +1,15 @@
+{
+  "package": "Emoji Hats",
+  "id": "emoticon_emoji",
+  "name": "Emoticon Emoji",
+  "author": "D1GQ",
+  "folder": "Emoticon_Emoji_Hat",
+  "sprite": "emoticon_emoji.png",
+  "flipsprite": "",
+  "backsprite": "",
+  "flipbacksprite": "",
+  "climbsprite": "emoticon_emoji_climb.png",
+  "behind": false,
+  "bounce": false,
+  "colorbase": false
+}
