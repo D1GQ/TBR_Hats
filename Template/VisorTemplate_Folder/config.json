@@ -1,0 +1,12 @@
+{
+  "package": "TheBetterVisors",
+  "id": "visor_template",
+  "name": "Visor Template",
+  "author": "Author Name",
+  "folder": "VisorTemplate_Folder",
+  "sprite": "template_visor.png",
+  "flipsprite": "template_visor_flip.png",
+  "climbsprite": "template_visor_climb.png",
+  "behindhats": false,
+  "colorbase": false
+}
