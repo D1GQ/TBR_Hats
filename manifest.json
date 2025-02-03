@@ -1,6 +1,5 @@
 {
   "Hats": [
-    "Dev_D1GQ",
     "Devil",
     "Tv_Head",
     "Tv_Head_No_Signal",
@@ -11,5 +10,6 @@
     "Emoticon_Emoji_Hat"
   ],
   "Visors": [
+    "Dev_D1GQ"
   ]
 }
