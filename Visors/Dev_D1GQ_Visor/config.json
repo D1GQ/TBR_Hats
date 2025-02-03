@@ -1,0 +1,12 @@
+{
+  "package": "Developer Visors",
+  "id": "d1gq",
+  "name": "D1GQ Mask",
+  "author": "D1GQ",
+  "folder": "Dev_D1GQ_Visor",
+  "sprite": "hat_sprite.png",
+  "flipsprite": "hat_flipsprite.png",
+  "climbsprite": "hat_climbsprite.png",
+  "behindhats": false,
+  "colorbase": false
+}

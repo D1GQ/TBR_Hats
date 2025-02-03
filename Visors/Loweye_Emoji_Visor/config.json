@@ -1,15 +1,12 @@
 {
-  "package": "Emoji Hats",
+  "package": "Emoji Visors",
   "id": "loweye_emoji",
-  "name": "Loweye Emoji",
+  "name": "Loweye Emoji",2
   "author": "D1GQ",
-  "folder": "Loweye_Emoji",
+  "folder": "Loweye_Emoji_Visor",
   "sprite": "loweye_emoji.png",
   "flipsprite": "",
-  "backsprite": "",
-  "flipbacksprite": "",
   "climbsprite": "loweye_emoji_climb.png",
-  "behind": false,
-  "bounce": false,
+  "behindhats": false,
   "colorbase": false
 }

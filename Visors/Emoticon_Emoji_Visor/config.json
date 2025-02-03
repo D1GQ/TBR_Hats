@@ -1,15 +1,12 @@
 {
-  "package": "Emoji Hats",
+  "package": "Emoji Visors",
   "id": "emoticon_emoji",
   "name": "Emoticon Emoji",
   "author": "D1GQ",
-  "folder": "Emoticon_Emoji_Hat",
+  "folder": "Emoticon_Emoji_Visor",
   "sprite": "emoticon_emoji.png",
   "flipsprite": "",
-  "backsprite": "",
-  "flipbacksprite": "",
   "climbsprite": "emoticon_emoji_climb.png",
-  "behind": false,
-  "bounce": false,
+  "behindhats": false,
   "colorbase": false
 }
