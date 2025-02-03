@@ -1,15 +1,15 @@
 {
   "Hats": [
-    "Devil",
-    "Tv_Head",
-    "Tv_Head_No_Signal"
+    "Devil_Hat",
+    "Tv_Head_Hat",
+    "Tv_Head_No_Signal_Hat"
   ],
   "Visors": [
-    "Dev_D1GQ",
-    "Loweye_Emoji",
-    "Thinking_Emoji",
-    "Sad_Emoji",
-    "Crying_Emoji",
-    "Emoticon_Emoji_Hat"
+    "Dev_D1GQ_Visor",
+    "Loweye_Emoji_Visor",
+    "Thinking_Emoji_Visor",
+    "Sad_Emoji_Visor",
+    "Crying_Emoji_Visor",
+    "Emoticon_Emoji_Visor"
   ]
 }
