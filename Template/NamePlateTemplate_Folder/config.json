@@ -1,0 +1,8 @@
+{
+  "package": "TheBetterNamePlates",
+  "id": "nameplatetemplate",
+  "name": "Name Plate Template",
+  "author": "Author Name",
+  "folder": "NamePlateTemplate_Folder",
+  "sprite": "template_nameplate.png"
+}
