@@ -1,0 +1,11 @@
+{
+  "package": "The Better Skins",
+  "id": "skin_template",
+  "name": "Skin Template",
+  "author": "Author Name",
+  "folder": "SkinTemplate_Folder",
+  "sprite": "template_skin_spritesheet.png",
+  "preview": "template_skin_preview.png",
+  "ref_skin_id": "skin_SuitB",
+  "colorbase": false
+}
