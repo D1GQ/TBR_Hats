@@ -1,0 +1,11 @@
+{
+  "package": "The Better Skins",
+  "id": "spray_suit",
+  "name": "Spray Suit",
+  "author": "D1GQ",
+  "folder": "SpraySuit_Skin",
+  "sprite": "spray_suit_spritesheet.png",
+  "preview": "spray_suit_preview.png",
+  "ref_skin_id": "skin_SuitB",
+  "colorbase": false
+}
