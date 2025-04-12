@@ -1,0 +1,15 @@
+{
+  "package": "The Better Hats",
+  "id": "books",
+  "name": "Pile of Books",
+  "author": "This Dude",
+  "folder": "Books_Hat",
+  "sprite": "books_hat.png",
+  "flipsprite": "",
+  "backsprite": "",
+  "flipbacksprite": "",
+  "climbsprite": "book_hat_climb.png",
+  "behind": false,
+  "bounce": true,
+  "colorbase": false
+}
