@@ -1,27 +1,33 @@
 <img src="https://github.com/user-attachments/assets/8f0a9839-7b83-476b-be41-ac1f449356d4" alt="The Better Roles Logo" width="800" height="300">
 
-## Cosmetics Creation Guide
+# Cosmetics Creation Guide
+
+## Main Parameters in the configuration of Cosmetics:  
+  - `package`: Category displayed in cosmetics menu.
+  - `id`: Unique ID (lowercase, no spaces). Will automatically have `_(name of cosmetic type)` as a postfix, so no need to do anything like `my_cosmetic_hat` you only need to do `my_cosmetic`.
+  - `name`: Name of the Cosmetic.
+  - `author`: Creator name of the Cosmetic use for credits.
+  - `folder`: Must match folder name of the Cosmetic.
 
 ## Hat Creation  
 
 A hat consists of multiple textures. The recommended texture resolution is **300px x 375px** with a **4:5 aspect ratio**.  
 
+### Optional Parameters in the configuration:  
+  - `bounce`: Makes the hat bounce when the player moves.  
+  - `colorbase`: Uses the player's color shader (e.g., red (#ff0000) is replaced with the player's primary color, blue (#0000ff) with the secondary color).  
+  - `behind`: Renders the hat behind the player.  
+---
 ### Required Textures  
 1. **Main Texture** (`sprite`):  
    - The primary texture of your hat.  
    - Rendered in front of the player.
    - File name pattern: `hatname.png`.  
-   - Optional Parameters in the configuration:  
-     - `bounce`: Makes the hat bounce when the player moves.  
-     - `colorbase`: Uses the player's color shader (e.g., red (#ff0000) is replaced with the player's primary color, blue (#0000ff) with the secondary color).  
-     - `behind`: Renders the hat behind the player.  
 
 2. **Climbing Texture** (`climbsprite`):  
    - Used when the player climbs a ladder.  
    - File name pattern: `hatname_climb.png`.  
-
 ---
-
 ### Optional Textures  
 1. **Back Texture** (`backsprite`):  
    - Renders behind the player.  
@@ -34,7 +40,7 @@ A hat consists of multiple textures. The recommended texture resolution is **300
 3. **Flipped Back Texture** (`flipbacksprite`):  
    - Back texture for when the player faces left.  
    - File name pattern: `hatname_flipback.png`.  
-
+---
 ## Hat Configuration
 ```json
 {
@@ -59,6 +65,10 @@ A hat consists of multiple textures. The recommended texture resolution is **300
 
 Visors require fewer textures than hats. Recommended resolution is **300px x 375px** with a **4:5 aspect ratio**.
 
+### Optional Parameters in the configuration:  
+  - `colorbase`: Uses the player's color shader (e.g., red (#ff0000) is replaced with the player's primary color, blue (#0000ff) with the secondary color).  
+  - `behindhats`: Renders the visor behind hats.  
+---
 ### Required Textures
 1. **Main Texture** (`sprite`):
    - Primary visor texture
@@ -67,12 +77,12 @@ Visors require fewer textures than hats. Recommended resolution is **300px x 375
 2. **Climbing Texture** (`climbsprite`):
    - Used when climbing ladders
    - File name pattern: `visorname_climb.png`
-
+---
 ### Optional Textures
 1. **Flipped Texture** (`flipsprite`):
    - Used when player faces left
    - File name pattern: `visorname_flip.png`
-
+---
 ## Visor Configuration
 ```json
 {
@@ -94,6 +104,10 @@ Visors require fewer textures than hats. Recommended resolution is **300px x 375
 
 Skins require special attention to spritesheets. Use existing game skins as reference.
 
+### Optional Parameters in the configuration:  
+  - `colorbase`: Uses the player's color shader (e.g., red (#ff0000) is replaced with the player's primary color, blue (#0000ff) with the secondary color).  
+  - `ref_skin_id`: Original skin ID being used from AU.  
+---
 ### Required Textures
 1. **Spritesheet** (`sprite`):
    - Must match an existing game skin's format
@@ -102,7 +116,7 @@ Skins require special attention to spritesheets. Use existing game skins as refe
 2. **Preview Image** (`preview`):
    - Displayed in cosmetics menu
    - File name pattern: `skinname_preview.png`
-
+---
 ## Skin Configuration
 ```json
 {
@@ -127,7 +141,7 @@ Nameplates are the simplest cosmetic with just one required texture. Recommended
 1. **Main Texture** (`sprite`):
    - Displayed on player nameplate in meetings.
    - File name pattern: `nameplatename.png`
-
+---
 ## Nameplate Configuration
 ```json
 {
